@@ -39,6 +39,7 @@ export default function Login( props ) {
           <Text>This is the Login Screen</Text>
           <CustomButton  name="Ernest" onPress={()=> handlePress("Ernest") }/>
           <CustomButton  name="Pius" onPress={()=> handlePress("Pius") }/>
+  <CustomButton  name="Monigan" onPress={()=> handlePress("Monigan") }/>
       </View>
 
   );
